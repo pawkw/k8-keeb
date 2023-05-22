@@ -17,3 +17,20 @@ The firmware directory contains files used with QMK to make the firmware for the
 - Keyboard layout editor: http://www.keyboard-layout-editor.com/
 - KBFirmware: https://kbfirmware.com/
 - Paintbrush: https://github.com/arduxio/thepaintbrush
+
+# Wiring
+
+The controller is a Arduino Pro Micro which uses a ATMega32U4. The keyboard is hand soldered and wired as follows:
+
+| Row | Pin |
+| --- | --- |
+| 0   | b4  |
+| 1   | b5  |
+
+| Col | Pin |
+| --- | --- |
+| 0   | b1  |
+| 1   | b3  |
+| 2   | b2  |
+| 3   | b6  |
+
